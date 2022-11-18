@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar With Statement</title>
+</head>
+<body>
+    <script>
+
+        function sayHelloWorld(){
+            document.writeln(`<p>Hello World<\p>`)
+        };
+
+        // Memanggil Fungsi
+        sayHelloWorld();
+
+        // Membuat Fungsi Parameter
+        function sayHello1(firstName,lastName){
+            document.writeln(`<p>Haloo bg ${firstName} ${lastName}<\p>`);
+        };
+
+        sayHello1(`Axel`,`Silalahi`);
+
+        // Membuat Fungsi Return
+        function sayHello2(firstName,lastName){
+            const say= `<p>Haloo kak ${firstName} ${lastName}<\p>`;
+            return say;
+        };
+
+        // Memanggil function 
+        const result = sayHello2(`Puan`,`Maharani`);
+        document.writeln(`${result}`);
+
+    </script>
+</body>
+</html>

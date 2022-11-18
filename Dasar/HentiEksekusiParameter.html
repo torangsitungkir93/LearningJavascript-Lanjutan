@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar With Statement</title>
+</head>
+<body>
+    <script>
+
+        function isContains(array,searchValue){
+            for (const element of array){
+                if(element === searchValue){
+                    return true;
+                }
+            }
+            return false;
+        };
+
+        const array = [1,2,3,4,5,6,7,8,9,10];
+        const search = 7;
+        const found = isContains(array,10);
+        document.writeln(`<p>${found}</p>`);
+
+        // OptionalParameter
+        function sayHello(firstName,middleName,lastName){
+            console.info(firstName);
+            console.info(middleName);
+            console.info(lastName);
+            
+        };
+
+        sayHello(undefined,`Torangto`);
+
+
+       
+    </script>
+</body>
+</html>

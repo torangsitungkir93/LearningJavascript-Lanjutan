@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Arrow Function</title>
+</head>
+<body>
+    <script>
+
+        // Arrow Function biasa
+        const sayHello = (name) => {
+            const say =`Hello ${name}`;
+            console.info(say);
+        }
+
+        sayHello("Eko");
+
+        // Arrow Function untuk mengembalikan value
+        const sum =(first,second) => first+second;
+
+        console.info(sum(100,200));
+
+        // Arrow Function tanpa kurung parameter bisa dilakukan jika parameternya 1
+
+        // Arrow Function tanpa blok untuk function yang sederhana
+        const sayHello2 = (name) => console.info(`Hello ${name}`);
+        sayHello2("Torangto Situngkir");
+
+    </script>
+</body>
+</html>
