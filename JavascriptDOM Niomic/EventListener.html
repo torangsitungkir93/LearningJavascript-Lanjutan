@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Javascript</title>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nam corrupti quo, animi illum, ea similique possimus libero consequatur unde accusantium magnam natus ex eveniet culpa debitis iusto, adipisci molestias!
+    </p>
+
+    <button onclick="tombol()">Klik</button>
+
+    <p id="contoh">contoh</p>
+
+    <script>
+
+        function tombol(){
+            document.open();
+            document.write(`<h1>Hello World</h1>`);
+        }
+
+        document.addEventListener("click",function(){
+            document.getElementById("contoh").innerHTML = "Sukses Kode Berhasil Diubah !";
+        });
+    </script>
+</body>
+</html>

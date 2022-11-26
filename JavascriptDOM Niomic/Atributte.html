@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript Niomic</title>
+</head>
+<body>
+    
+    
+    <button type="button" name="button" onclick="jalanScript()">Jalan</button>
+    <p id="contoh">contoh</p>
+    
+    <script type="text/javascript">
+        function jalanScript(){
+            const a = document.getElementsByTagName(`button`)[0];
+            const b = a.attributes.item(0).name;
+            console.log(a);
+            console.log(b);
+
+            document.getElementById("contoh").innerHTML = b;
+        }
+    </script>
+</body>
+</html>
