@@ -23,6 +23,7 @@ tAcakWarna.addEventListener('click',function(){
     document.body.style.backgroundColor = `rgb(${r},${g},${b})`;
 });
 
+
 const sMerah = document.querySelector(`input[name=sMerah]`);
 const sHijau = document.querySelector(`input[name=sHijau]`);
 const sBiru = document.querySelector(`input[name=sBiru]`);
